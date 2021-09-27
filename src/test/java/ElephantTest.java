@@ -26,7 +26,7 @@ public class ElephantTest {
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
         e.downgradeSpeed();
-        assertEquals(12, e.getMaxSpeed());
+        assertEquals(7, e.getMaxSpeed());
     }
 
 
