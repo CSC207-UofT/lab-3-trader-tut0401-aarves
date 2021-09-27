@@ -29,7 +29,6 @@ public class Turtle implements Drivable, Domesticatable, Tradable {
 
     @Override
     public String toString(){
-        String id = super.toString();
-        return id + " (Max speed: " + this.maxSpeed +")";
+        return "This is a turtle!";
     }
 }
