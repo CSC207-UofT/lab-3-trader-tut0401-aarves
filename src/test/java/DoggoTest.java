@@ -1,15 +1,15 @@
-/* This file does the testing for Dog.java
+/* This file does the testing for Doggo.java.
  */
 
 import org.junit.*;
 import static org.junit.Assert.*;
 
-public class DogTest {
-    Dog dog;
+public class DoggoTest {
+    Doggo dog;
 
     @Before
     public void setUp() throws Exception {
-        dog = new Dog();
+        dog = new Doggo();
     }
 
     @Test(timeout = 50)
