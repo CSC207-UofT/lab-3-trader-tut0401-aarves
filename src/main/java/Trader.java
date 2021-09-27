@@ -93,11 +93,14 @@ public class Trader {
         /* After writing your own Tradable object, add an instance
          * (or multiple instances of it) to the all_items list below.
          */
+
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
                 new Horse(),
-                new Horse()
+                new Horse(),
                 // TODO: Add Tradable objects here!
+                new Elephant(),
+                new Elephant()
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
